@@ -3,6 +3,8 @@ import pandas as pd
 import joblib
 import warnings
 warnings.filterwarnings("ignore")
+import os
+os.environ["PYTHONWARNINGS"] = "ignore"
 # =========================
 # 📦 Load Model (XGBoost)
 # =========================
